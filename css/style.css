@@ -1,0 +1,112 @@
+
+html{    
+    background:  url("https://image.freepik.com/free-vector/seamless-pattern-of-petals-on-gray-background_53876-61842.jpg") #BFC571;
+        background-repeat:round;
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-attachment: scroll;
+    
+  
+}
+a {
+    color: #313332;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: #424242; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: #454847; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+.FIO {
+    text-align: center;
+        font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 45px;
+    display: block;
+    
+  color: #A5A5A5;
+  letter-spacing: .5em;
+  }
+  #adress{
+      font-style: italic;
+      font-size: 14px;
+      line-height: 18px;
+      
+  }
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: inline-block;
+    animation: animationBlock 3s infinite;  
+}
+@keyframes animationBlock{
+    0% {border-radius: 20% 60%;}
+    50% {border-radius: 30% 45%;}
+    100%{border-radius: 20% 60%;}
+}
+.shadow{
+    text-align: center;
+    background: white;
+  display: block;
+   margin: 50px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#myPhoto{
+    width:45%;
+    display: inline-block;
+    border-top: none; 
+    border-bottom: none; 
+    border-radius: 15% 37% 13% 24%;
+    
+}
+.trait{text-align: center;
+    font-weight: 700;
+font-size: 20px;
+font-style: normal;
+line-height: 25px;
+display: block;
+color: #A5A5A5;
+letter-spacing: .5em;
+padding: .5em;
+}
+
+#contactInfo{ 
+    width: 40%;
+
+}
+ li{
+  text-align: left;
+  padding: 3% ;
+  border-bottom: 1px solid #efefef;
+  font-size: 20px;
+    line-height: 25px;
+  
+}
+#summary{
+    width: 40%;
+
+}
+.container {
+    width: 100%;
+    max-width: 1024px; 
+    padding: 0 15px;
+    margin: 0 auto;
+    color: #313332;
+    
+  }
+  .container p{
+    color: #313332;
+    text-align: left;
+    padding: 3% ;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #skills{
+      width: 30%;
+  }
+  div{
+    float: left; /*обтекание по левому краю! менять тут расположение блоков*/
+  }
